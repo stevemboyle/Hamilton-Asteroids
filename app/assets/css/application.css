@@ -1,0 +1,27 @@
+html {
+  padding: 0px;
+  height: 100%;
+  /*background-image: 'http://blogs-images.forbes.com/hollieslade/files/2014/03/High-Res-Heath.jpg';*/
+  /*background-image: url(pokemon_bg.jpg);*/
+  /*background-image: url(http://www.epicimmersive.com/tickets/wp-content/uploads/2016/04/Epics-Venue-for-September.jpg);*/
+  background-position: center center;
+  background-image: url(https://i.ytimg.com/vi/C2iDenRGYGY/maxresdefault.jpg);
+  background-size: cover;
+  font-family: Helvetica, sans-serif;
+}
+
+#full-screen {
+  height: 100%;
+  background-image: url(https://i.ytimg.com/vi/C2iDenRGYGY/maxresdefault.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#canvas-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
