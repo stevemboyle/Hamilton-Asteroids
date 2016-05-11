@@ -10,6 +10,25 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+#text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gif {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+  color: black;
+}
+
 #full-screen {
   height: 100%;
   background-image: url(https://i.ytimg.com/vi/C2iDenRGYGY/maxresdefault.jpg);
@@ -17,6 +36,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center;
 }
 
 
