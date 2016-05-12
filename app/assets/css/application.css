@@ -1,19 +1,23 @@
 html {
-  padding: 0px;
-  height: 100%;
+  /*padding: 0px;*/
+  /*height: 100%;*/
+    background-image: url(https://i.ytimg.com/vi/C2iDenRGYGY/maxresdefault.jpg);
+    background-size: cover;
   /*background-image: 'http://blogs-images.forbes.com/hollieslade/files/2014/03/High-Res-Heath.jpg';*/
   /*background-image: url(pokemon_bg.jpg);*/
   /*background-image: url(http://www.epicimmersive.com/tickets/wp-content/uploads/2016/04/Epics-Venue-for-September.jpg);*/
-  background-position: center center;
-  background-image: url(https://i.ytimg.com/vi/C2iDenRGYGY/maxresdefault.jpg);
-  background-size: cover;
+  /*background-position: center center;
+  background-image: url(https://d12edgf4lwbh8j.cloudfront.net/photo/image/Lin-Manuel-Miranda.gif);
+
   font-family: Helvetica, sans-serif;
-}
+/*}
 
 #text {
-  display: flex;
+  /*display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
+  /*width: 400px;*/
+  /*margin: 50px 300px 50px 50px;*/
 }
 
 #gif {
@@ -29,14 +33,103 @@ h3 {
   color: black;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+    list-style: none;
+  display: table-cell;
+  padding: 20px;
+  width: 400px;
+}
+
+.text {
+  font-family: 'Marcellus', serif;
+  /*font-family: 'Crimson Text', serif;*/
+  /*font-size: 30px;*/
+  color: white;
+  /*width: 400px;*/
+  /*margin: 50px 300px 50px 50px;*/
+}
+
+.text h4 {
+  font-size: 30px
+}
+
+.text p {
+  font-size: 25px;
+}
+
 #full-screen {
-  height: 100%;
+  height: 100vh;
   background-image: url(https://i.ytimg.com/vi/C2iDenRGYGY/maxresdefault.jpg);
+
+
+  /*http://www.hamiltonbroadway.com/_img/bg.jpg*/
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   background-position: center;
+}
+
+#meet-hamilton {
+  height: 100vh;
+  background-image: url(https://d12edgf4lwbh8j.cloudfront.net/photo/image/Lin-Manuel-Miranda.gif);
+
+
+  /*http://www.hamiltonbroadway.com/_img/bg.jpg*/
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+#meet-jefferson {
+  height: 100vh;
+  background-image: url(https://d12edgf4lwbh8j.cloudfront.net/photo/image/Jefferson.gif);
+
+
+  /*http://www.hamiltonbroadway.com/_img/bg.jpg*/
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+#are-you-ready {
+  height: 100vh;
+  background-image: url(https://d12edgf4lwbh8j.cloudfront.net/photo/image/Toast.gif);
+
+
+  /*http://www.hamiltonbroadway.com/_img/bg.jpg*/
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+
+
+#intro-screen {
+  /*height: 100%;*/
+  /*background-image: ;*/
+  /*background-size: cover;*/
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  /*background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(http://65.media.tumblr.com/e03203fc03fce5f5166c6cc7a1c4212c/tumblr_nvlja3oXTM1un1x6fo1_1280.jpg);*/
 }
 
 
